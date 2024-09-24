@@ -5,7 +5,8 @@ import './index.css'
 import { Provider } from 'react-redux'
 import { store } from './config/store.js'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import CheckOut from './checkOut.jsx'
+
+import CartItems from './CartItems.jsx'
 
 let router = createBrowserRouter([
     {
@@ -14,7 +15,7 @@ let router = createBrowserRouter([
     },
     {
         path: "check",
-        element: <CheckOut />
+        element: <CartItems />
     }
 ])
 

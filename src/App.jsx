@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { addCart } from './config/cartSlice'
 import Navbar from './components/Navbar'
-import CheckOut from './checkOut'
+
 
 function App() {
   let [data, setData] = useState([])

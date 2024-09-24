@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 
-function CheckOut() {
+function CartItems() {
     let selector = useSelector(state => state.cart.cartItems)
     console.log(selector);
 
@@ -35,4 +35,4 @@ function CheckOut() {
 
     )
 }
-export default CheckOut
+export default CartItems
