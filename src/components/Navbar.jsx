@@ -10,10 +10,10 @@ function Navbar() {
   return (
     <>
 
-      <div className='bg-[#2b6e6e] flex items-center p-3' >
+      <div className='bg-[#808080] flex items-center p-3' >
         <div className='flex w-[45%]  gap-2 items-center' >
 
-          <p>cart items <sup className='bg-[red] w-[1rem] px-1 rounded-full'>{seletor.length}</sup></p>
+          <button>cart items <sup className='bg-[red] w-[1rem] px-1 rounded-full bg-slate-500 p-2 w-[6rem]'>{seletor.length}</sup></button>
 
 
           <Link to="check">
